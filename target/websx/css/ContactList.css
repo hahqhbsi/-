@@ -1,0 +1,164 @@
+@import "//at.alicdn.com/t/c/font_4571320_e7g9vgzwwbf.css";
+.left{
+    float: left;
+}
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+.right{
+    float: right;
+}
+.list .iconfont {
+    font-family: "iconfont" !important;
+    font-size:48px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    margin-bottom: 0px;
+}
+.list .weather{
+    margin-left: 9px;
+    margin-top: -36px;
+    margin-bottom: 6px;
+    margin-right: 31px;
+    text-align: center;
+}
+form{
+    width: 300px;
+}
+
+.list .ico{
+    float: right;
+
+}
+.list .common{
+    font-size:28px;
+    margin: 10px;
+    color: deepskyblue;
+    background-color: white;
+    border: none;
+    font-size: 38px;
+}
+
+.list .bottom .new{
+    position:absolute;
+    width: 150px;
+    left: 450px;
+    top: 246px;
+}
+.list
+{
+    width: 600px;
+    height: 1000px;
+}
+.list .title
+{
+    background: cornflowerblue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.city img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100px;
+    margin-top: 41px;
+}
+.list .personCity{
+    margin-top: 113px;
+}
+.list .personCity a{
+    color: blue;
+    cursor: pointer;
+}
+/* 以下是下半部分 */
+.list .operation .search
+{
+    width: 200px;
+    height: 27px;
+}
+.list .operation .sousuo
+{
+    font-size: 26px;
+    color: deepskyblue;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: white;
+    border: none;
+}
+.list .status
+{
+    width: 80px;
+    height: 27px;
+    margin: 0px 10px;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+.list table th{
+    text-align: center;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+.list table tr .opera{
+    text-align: center;
+}
+th {
+    background-color: #f0f0f0;
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+tr:hover {
+    background-color: #eaeaea;
+}
+/* .action-button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 10px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.action-button:hover {
+    background-color: #45a049;
+} */
+
+tr button
+{
+    width: 60px;
+    height: 30px;
+    border-radius: 20px;
+    border: none;
+    background-color: deepskyblue;
+    color:white;
+
+}
+.list table tr th  .order{
+    font-size: 27px;
+}
+/* 分页 */
+.list .map .radiomap
+{
+    margin-left: 30px;
+}
+button
+{
+    cursor: pointer;
+}

@@ -1,0 +1,49 @@
+@import "//at.alicdn.com/t/c/font_4571320_trnpzky3bsn.css";
+.login .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+h3
+{
+    color: deepskyblue;
+}
+
+.id
+{
+    border: black solid 2px;
+    border-radius: 20px;
+    padding:50px;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+}
+.id .name
+{
+    margin-bottom: 20px;
+}
+.id .name,.id .psw
+{
+    width: 200px;
+    height: 20px;
+}
+.id .submit{
+    background-color: brown;
+    text-align: center;
+    color: white;
+    width: 250px;
+    height: 30px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin-left: 31px;
+}
+.id .sbm
+{
+    width: 231px;
+    text-align: center;
+}
+input:focus {
+    background: powderblue;
+}
